@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('http://fonts.cdnfonts.com/css/source-sans-pro');
+:root{
+    --primary-color: crimson;
+    --secondary-color: cornflowerblue;
+    --primary-color-contrast:darkred;
+    --secondary-color-contrast:steelblue;
+    --light-text: #ffffff;
+    --text-color: #1C1C1C;
+    --outline-color: #808080;
+
+    
+}
+
+form{
+    font-family: 'Roboto', sans-serif;
+    color: var(--text-color);
+    
+}
+
+button{
+    font-family: 'Source Sans Pro', sans-serif;
+    border-color: transparent;
+    color: var(--light-text);
+    border-radius: 5px;
+    font-weight: bolder;
+    font-size: 17px;
+    text-align: center;
+    padding: 2px;
+    cursor: pointer;
+    
+    
+}
+
+
+
+select{
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-weight: normal;
+    color: var(--outline-color);
+    border-radius: 5px;
+    border-color: var(--outline-color);
+    cursor: pointer;
+    
+    
+}
+
+select:focus{
+    outline: none !important;
+    border: solid 2px black;
+
+
+}
+
+#confirmar{
+background-color: var(--secondary-color);
+
+}
+
+#confirmar:hover{
+    background-color:var(--secondary-color-contrast);
+}
+
+#limpar{
+background-color:var(--primary-color);
+}
+
+#limpar:hover{
+    background-color:var(--primary-color-contrast);
+    }
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+  }
+
+  .formulario{
+    padding: 2px;
+    
+    
+  }
+
+.formulario2{
+    padding: 4px;
+    position: absolute;
+    margin-left: 62%;
+}
+
+#operacoes{
+    font-size: 17px;
+}
+
+input{
+    border-radius: 5px;
+    border: solid 1px var(--outline-color);
+    font-size: 17px;
+    display: block;
+}
+
+input:focus { 
+    outline: none !important;
+    border: solid 2px black;
+      
+}
+

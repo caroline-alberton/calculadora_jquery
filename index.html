@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    
+    
+</head>
+
+<body>
+    <div>
+        <form class="flex-container">
+            <div class="formulario">
+                <label for="valor1">Informe o primeiro valor</label>
+                <input type="number" name="valor1" id="primeirovalor" />
+            </div>
+
+            <div class="formulario">
+                <label for="valor2">Informe o segundo valor</label>
+                <input type="number" name="valor2" id="segundovalor" />
+            </div>
+            <div class="formulario">
+                <select id="operacoes">
+                    <option value="selecione">Selecione o operador</option>
+                    <option value="soma">+</option>
+                    <option value="subtracao">-</option>
+                    <option value="multiplicacao">*</option>
+                    <option value="divisao">/</option>
+                    <option value="porcentagem">%</option>
+                </select>
+            </div>
+
+            <div class="formulario">
+                <label for="resultado">Resultado</label>
+                <input type="number" name="resultado" id="resultado" disabled>
+
+        </form>
+    </div>
+
+    <div class="formulario2">
+        <button id="confirmar">Calcular</button>
+        <button id="limpar">Limpar</button>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
